@@ -1,0 +1,136 @@
+/* all background color here */
+body {
+    background-color: #F8F9FA;
+}
+
+
+
+header {
+    background-color: #2C3E50;
+    font-size: 80px;
+    text-decoration: underline;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 95%;
+    height: 200px;
+    margin: 15px auto;
+    border: 8px solid black;
+    border-radius: 25px;
+    display: flex; /* to enable flexbox */
+    justify-content: center; /* Centers all the present text in header horizontally */
+    align-items: center; /* Centers text vertically */
+}
+    
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+   
+}
+/* first,second,third paragraph boxes */
+section{
+    background-color: aquamarine;
+    height: 600px;
+    width: 520px;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 30px;
+    padding: 20px;  
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#center{
+    text-align: center;
+}
+
+
+.insameline {
+    display: flex; /* places sections side by side dont use inline-block */
+    justify-content: center; /* centers them horizontally, without this it will flew anywhere */
+    gap: 10px; /* add  space between the three sections each other*/
+}
+
+/* below three boxex css */
+
+#belowcolumn{
+    background-color: #1ABC9C;
+    height: 800px;
+    width: 90%;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 30px;
+    padding: 20px;  
+   
+} 
+.myh1{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #FFFFFF;
+font-weight: 900;
+font-size: 30px;
+text-decoration: underline;
+}
+
+#belowparatextfont{
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
+
+#nouse{
+    background-color: #3498DB;
+    height: 200px;
+    width: 1420px;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    padding: 20px;  
+
+}
+
+/* button CSS bro....from here  */
+
+
+.next-button {
+    display: inline-block;
+    padding: 12px 24px ;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff416c;
+    border-radius: 30px;
+    text-decoration: underline;
+    cursor: pointer; /*  this makes the hand icon when i on button*/
+}
+
+#buttoncenter{
+
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically (if needed) */
+    height: 20vh;  /* Optional: Centers vertically on the full page */
+
+}
+
+#firstparacolor{
+ background-color: #FFD700;
+}
+
+#secondparacolor{
+    background-color: #3498DB;
+   }
+
+   #thirdparacolor{
+    background-color: #E74C3C;
+   }
+   
